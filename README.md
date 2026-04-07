@@ -117,12 +117,16 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 
 
 **Key Highlights:**
+* **Scale of Operations:** The data captures maternal health outcomes across 15 health facilities reporting over a 36-month period (Jan 2015 – Dec 2017), covering a total of 55,873 deliveries.
+* **Maternal Morbidity & Mortality:** During this period, there were 7,433 maternal complication cases, resulting in 1,038 maternal deaths.
+* **Leading Complication (Volume):** Obstructed Labour is the most frequent complication by a significant margin, accounting for over a quarter (25.9%) of all recorded maternal cases. It is followed by Eclampsia (18.7%) and Preeclampsia (17.4%).
+* **Leading Cause of Death:** Eclampsia is the deadliest complication in the state, driving almost a quarter (23.9%) of all maternal mortalities.
+* **Case Fatality Rates (CFR):** The bar charts indicate that Eclampsia has the highest Case Fatality Rate (peaking near 20%), drastically outpacing the CFR of conditions like Preeclampsia (~8%) and Obstetric Hemorrhage (~9%).
+* **Reporting Compliance:** Facility data submission remained relatively strong, hovering around the maximum of 15 facilities per month, with only a few minor drop-offs across the 3-year timeline.
 * **CFR Tracking:** Pinpoints exact complication mortality rates for the selected state. 
-* **Time-Series Analysis:** Line charts break down the monthly trajectory of specific complications (e.g., Eclampsia vs. Hemorrhage) to identify seasonal spikes.
-* **Facility Outlier Detection:** Scatter plots plot every facility in the state by Total Cases vs. Total Deaths. This instantly isolates "failing" facilities that have high mortalities despite low or average caseloads.
-* **Maternal-Neonatal Correlation:** Dual-axis charts plot maternal complications (like Obstructed Labor) directly against neonatal outcomes (Severe Birth Asphyxia and Stillbirths).
-* **Service Drop-off:** Funnel charts track the retention from Antenatal Care (ANC 1 to ANC 4) and the conversion rate of Family Planning (Counselled ➔ Received Services ➔ Received Commodities).
-* **Data Quality:** Matrices track the 36-month reporting compliance for every facility in the state, flagging intermittent data drops.
+* **Time-Series Analysis:** Line charts break down the monthly trajectory of specific complications (e.g., Eclampsia vs. Hemorrhage) to identify trends, dips and seasonal spikes.
+* **Facility Outlier Detection:** Bubble chart plot every facility in the state by Total Cases vs. Total Deaths measured against their Total Deliveries (bubble sizeO. This instantly isolates "failing" facilities that have high mortalities despite low or average caseloads and deliveries.
+
 
 ---
 
