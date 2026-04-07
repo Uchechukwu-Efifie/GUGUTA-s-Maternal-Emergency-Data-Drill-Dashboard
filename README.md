@@ -194,6 +194,10 @@ This project demonstrates the immense value of transitioning public health data 
 
 To ensure the dashboard reflects realistic epidemiological trends, seasonal spikes, and strict clinical mathematical balancing (e.g., ensuring maternal deaths never exceed cases), the underlying dataset was engineered from scratch using the custom Python script below which was iteratiely fine tuned and refined with Google Gemini.
 
+---
+
+*Dashboard designed and developed as a portfolio project demonstrating applied data analytics, data engineering, and multi-level data visualization competencies. All data is synthetic and does not represent any real country, facility, or patient.*
+
 <details>
 <summary><b>Click to expand and view the Python script</b></summary>
 
@@ -338,9 +342,8 @@ for c in columns + ["Submission Time", "Facility Name", "Zone", "State", "LGA"]:
 df_final = df_final[ordered_cols]
 df_final.to_csv("CEmONC_Synthetic_Final_Dataset.csv", index=False)
 print(f"Dataset generated successfully with {len(df_final)} rows.")
-
 ```  
+</details>
 
-*Dashboard designed and developed as a portfolio project demonstrating applied data analytics, data engineering, and multi-level data visualization competencies. All data is synthetic and does not represent any real country, facility, or patient.*
 
 
