@@ -197,10 +197,6 @@ To ensure the dashboard reflects realistic epidemiological trends, seasonal spik
 <details>
 <summary><b>Click to expand and view the Python script</b></summary>
 
-*Dashboard designed and developed as a portfolio project demonstrating applied data analytics, data engineering, and multi-level data visualization competencies. All data is synthetic and does not represent any real country, facility, or patient.*
-
----
-
 ```python
 import pandas as pd
 import numpy as np
@@ -345,5 +341,9 @@ print(f"Dataset generated successfully with {len(df_final)} rows.")
 ```  
 </details>
 
+---
 
+*Dashboard designed and developed as a portfolio project demonstrating applied data analytics, data engineering, and multi-level data visualization competencies. All data is synthetic and does not represent any real country, facility, or patient.*
+
+---
 
