@@ -72,7 +72,7 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 
 ## 5. Dashboard Pages — Detailed Walkthrough
 
-### Pages 1–2: National Summary (Leadership View)
+### 📍 Pages 1–2: National Summary (Leadership View)
 *Target Audience: Ministry Executives, National Program Directors*
 
 * **Page-1:** Guguta's Maternal Summary Page
@@ -81,10 +81,29 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 * **Page-2:** Guguta's Neonatal Summary Page
 ![Summary Page Maternal](images/National_page_2.jpeg)
 
-**Key Highlights:**
-* Provides a macro view of the 1.84 million total deliveries across all 560 facilities.
-* Scorecards highlight the National Case Fatality Rates (CFR) for the top 6 complications, utilizing YoY comparative sparklines to show the historical velocity of mortalities at a glance.
-* Geo-heatmaps quickly identify which of the 9 Zones bear the highest burden of maternal cases versus actual mortalities.
+### 📊 Dashboard Highlights
+* **Massive Scale:** The dashboard aggregates data from **560 health facilities** across 9 Zones and 45 States, capturing **1.84 million deliveries** between 2015 and 2017.
+* **Maternal Burden:** Over the 3-year period, facilities managed **614,998 maternal complications**, which tragically resulted in **21,717 maternal deaths**.
+* **Neonatal Burden:** The data recorded **126,244 neonatal complications** (Birth Asphyxia and Sepsis), leading to **41,313 neonatal deaths**.
+* **The Leading Complication:** **Obstructed Labour** is the most prevalent maternal complication nationally, accounting for **25%** of all cases.
+* **The Leading Killer (Maternal):** **Eclampsia** is responsible for the largest share of maternal mortalities (**32.8%**), despite being only the third most common complication (15.5% of cases).
+* **The Leading Killer (Neonatal):** **Severe Birth Asphyxia** accounts for a massive **58.3%** of all neonatal deaths.
+* **Case Fatality Rates (CFR):** The national CFR for Eclampsia is alarmingly high at **15.1%**, dwarfing the mortality rates of other conditions like Post-Abortal complications (8.04%) and Obstetric Hemorrhage (8.03%).
+
+---
+
+### 💡 Key Insights
+* **The Eclampsia Discrepancy:** There is a severe national failure in managing hypertensive disorders in pregnancy. While Obstructed Labour and Obstetric Hemorrhage occur much more frequently, Eclampsia kills at nearly double the rate (15.1% CFR). This points to a systemic inability to halt disease progression once convulsions begin.
+* **The Obstructed Labour -> Asphyxia Pipeline:** Obstructed Labour makes up 25% of maternal complications. Unsurprisingly, Severe Birth Asphyxia drives 58.3% of neonatal deaths. Prolonged, unmanaged labor is directly causing fetal distress, resulting in a dual crisis where both mother and baby are severely compromised during delivery.
+* **Consistent Reporting, Persistent Death:** The facility data submission chart shows near-perfect compliance (steady at ~560 facilities/month). However, the "Trend of MMR" and neonatal death charts show that mortalities remain stubbornly high and flat across the 36 months. The data is being collected reliably, but it is not driving systemic clinical improvement.
+
+---
+
+### 🛠️ Actionable Recommendations
+* **Comprehensive Preeclampsia/Eclampsia Management:** With Eclampsia driving 32.8% of deaths, the Ministry must mandate rigorous clinical training on hypertensive disorders. This must start at the antenatal level with aggressive surveillance and risk-stratification for high-risk women. This training must be coupled with an immediate national audit of the Magnesium Sulfate (MgSO4) supply chain to ensure life-saving anticonvulsants are available the moment they are needed.
+* **Community Awareness & Prompt Referrals:** Launch targeted public health campaigns educating communities, women, and traditional birth attendants on identifying early danger signs in pregnancy. This must be paired with strengthened emergency referral protocols to ensure women reach CEmONC facilities *before* complications become fatal.
+* **Enforce Intrapartum Monitoring (The Partograph):** To break the fatal link between Obstructed Labour and Severe Birth Asphyxia, clinical directors must strictly mandate and audit the use of the WHO Partograph during active labor. Early detection of abnormal labor progress will prompt timely C-sections.
+* **Invest in Neonatal Resuscitation:** Since Severe Birth Asphyxia causes over 58% of neonatal deaths, delivery rooms must be equipped with ambu bags and penguin suckers, backed by mandatory "Helping Babies Breathe" (HBB) resuscitation training for all birth attendants.
 
 ### Pages 1–8: State-Level Deep Dive (Zone E, State 09)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
