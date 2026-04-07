@@ -83,11 +83,12 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 * Scorecards highlight the National Case Fatality Rates (CFR) for the top 6 complications, utilizing YoY comparative sparklines to show the historical velocity of mortalities at a glance.
 * Geo-heatmaps quickly identify which of the 9 Zones bear the highest burden of maternal cases versus actual mortalities.
 
-### Pages 3–10: State-Level Deep Dive (Zone F, State 13)
+### Pages 3–10: State-Level Deep Dive (Zone E, State 09)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
 
 *(The following analysis and pages of the dashboard is filtered for State 09 of Zone E)*
 
+#### State 09's Maternal Summary Page
 ![Summary Page Maternal](images/state_page_1.jpeg)
 
 **[Insert Link/Image for State Deep Dive Page 2]**
