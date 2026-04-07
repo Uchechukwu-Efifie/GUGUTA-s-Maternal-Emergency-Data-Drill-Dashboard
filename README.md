@@ -75,10 +75,10 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 ### Pages 1–2: National Summary (Leadership View)
 *Target Audience: Ministry Executives, National Program Directors*
 
-* **Page-1:** Gaguta's Maternal Summary Page
+* **Page-1:** Guguta's Maternal Summary Page
 ![Summary Page Maternal](images/National_page_1.jpeg)
 
-* **Page-2:** Gaguta's Neonatal Summary Page
+* **Page-2:** Guguta's Neonatal Summary Page
 ![Summary Page Maternal](images/National_page_2.jpeg)
 
 **Key Highlights:**
@@ -116,32 +116,30 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 ![Summary Page Maternal](images/state_page_8.jpeg)
 
 
-**Key Highlights:**
+**📊 Key Highlights:**
 * **Scale of Operations:**  The data captures maternal health outcomes across 15 health facilities reporting over a 36-month period (Jan 2015 – Dec 2017), covering a total of 55,873 deliveries.
 * **Maternal Morbidity & Mortality:**  During this period, there were 7,433 maternal complication cases, resulting in 1,038 maternal deaths.
 * **Leading Complication (Volume):**  Obstructed Labour is the most frequent complication by a significant margin, accounting for over a quarter (25.9%) of all recorded maternal cases. It is followed by Eclampsia (18.7%) and Preeclampsia (17.4%).
 * **Leading Cause of Death:**  Eclampsia is the deadliest complication in the state, driving almost a quarter (23.9%) of all maternal mortalities.
 * **Case Fatality Rates (CFR):**  The bar charts indicate that Eclampsia has the highest Case Fatality Rate (peaking near 20%), drastically outpacing the CFR of conditions like Preeclampsia (~8%) and Obstetric Hemorrhage (~9%).
 * **Reporting Compliance:**  Facility data submission remained relatively strong, hovering around the maximum of 15 facilities per month, with only a few minor drop-offs across the 3-year timeline.
-* **CFR Tracking:**  Pinpoints exact complication mortality rates for the selected state. 
-* **Time-Series Analysis:**  Line charts break down the monthly trajectory of specific complications (e.g., Eclampsia vs. Hemorrhage) to identify trends, dips and seasonal spikes.
-* **Facility Outlier Detection:**  Bubble chart plot every facility in the state by Total Cases vs. Total Deaths measured against their Total Deliveries (bubble sizeO. This instantly isolates "failing" facilities that have high mortalities despite low or average caseloads and deliveries.
 
 
 ---
 
-## 6. Key Insights & Recommendations
+## 6. 💡 Key Insights & Recommendations
 
 Based on the simulated data parameters, the dashboard highlights several critical intervention points:
 
-* **Insight 1 (Clinical):** Time-series charts reveal distinct mid-year spikes in Eclampsia cases and mortalities. 
-* **Insight 2 (Operational):** Scatter plots consistently isolate a small subset of facilities driving the majority of state-level mortalities, despite having average delivery volumes.
-* **Insight 3 (Supply Chain):** Family Planning funnel charts show high counseling rates but massive drop-offs at the "Commodities Received" stage.
+* **The Eclampsia Crisis:** Despite being the second most common complication, Eclampsia is the leading killer. A critical ~20% CFR indicates facilities struggle to save mothers once convulsions begin.
+* **Systemic Labor Delays:** Obstructed Labour accounts for 25.9% of cases, signaling failed early detection, poor intrapartum monitoring, or delayed referrals to these CEmONC facilities.
+* **Zero Surge Capacity:** Mortality lines perfectly mirror caseload spikes (e.g., mid-2017). The system lacks the capacity to handle sudden emergency influxes, resulting in proportionate deaths rather than successful interventions.
 
-**Recommendations:**
-1. **Investigate Seasonal Supply Gaps:** The Ministry must audit the supply chain for Magnesium Sulfate during the mid-year months to address the Eclampsia mortality spikes.
-2. **Targeted Clinical Mentorship:** Shift away from broad, state-wide generic training. Utilize the dashboard's scatter plots to deploy emergency clinical mentorship teams directly to the specific outlier facilities failing to manage average caseloads.
-3. **Resolve FP Stockouts:** The drop-off in Family Planning provision is a commodity availability issue, not a patient willingness issue. Immediate review of contraceptive last-mile delivery is required.
+** 🛠️ Recommendations:**
+* **Urgent MgSO4 Audit:** Immediately audit Magnesium Sulfate and antihypertensive supply chains across all 15 facilities. Stockouts or delayed administration are the likely culprits for the high Eclampsia CFR.
+* **Enforce Partograph Use:** Mandate and audit WHO Partograph utilization for active labor. Early "alert line" detection will prompt timely C-sections and drastically reduce Obstructed Labour cases.
+* **Investigate Seasonal Spikes:** Conduct root-cause analyses on specific spike months (e.g., Q3 2016) to identify correlations with rainy season transport delays, staff strikes, or drug stockouts.
+* **Address Data Drop-offs:** Identify facilities responsible for minor reporting dips. 100% compliance is critical; missing data during peak crisis months could mask even higher mortality realities.
 
 ---
 
