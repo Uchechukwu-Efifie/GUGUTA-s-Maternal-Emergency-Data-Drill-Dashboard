@@ -61,12 +61,24 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 
 ---
 
-## 4. Dashboard Architecture & Design Principles
+## 4. 🏗️ Dashboard Architecture & Design Principles
 
-* **Dual-Audience Navigation:** Designed clear pathways for executives (Pages 1-2) and technical analysts (Pages 3-10).
-* **Interactive Filtering:** Global filters (Review Year, Review Month) and hierarchical geographic filters (Zone > State > Facility) allow seamless drill-down.
-* **Contextual Visualizations:** Chosen specific chart types for specific insights (e.g., Dual-axis charts to show the correlation between cases and deaths, scatter plots to isolate facility outliers, and funnels to show drop-offs in care).
-* **Dynamic Baselining:** Incorporated baseline targets (e.g., WHO MMR targets) directly into the charts for instant performance benchmarking.
+**1. Dual-Audience Architecture**
+* **Executive Layer (Pages 1-2):** Macro-level KPIs, geographic heatmaps, and aggregate Case Fatality Rates (CFR) designed for national leadership.
+* **Diagnostic Layer (Pages 3-10):** Micro-level analytical tools tailored for M&E teams to troubleshoot specific zones, states, and facilities.
+
+**2. UI/UX Principles**
+* **Contextual Baselining:** Scorecards feature 3-year YoY sparklines to show metric velocity, while bar charts use hardcoded target lines to instantly flag unacceptable mortality rates.
+* **Hierarchical Drill-Down:** Cascading filters allow seamless navigation from Zone ➔ State ➔ LGA ➔ Facility.
+
+**3. Standout Visualizations**
+* **Outlier Scatter Plots:** *Cases vs. Deaths* charts instantly isolate failing hospitals with disproportionately high mortalities.
+* **Dual-Axis Charts:** Prove systemic clinical links (e.g., Obstructed Labour vs. Neonatal Asphyxia).
+* **Drop-off Funnels:** Highlight systemic retention failures (e.g., FP counseling vs. commodities received).
+
+**4. Technical Implementation**
+* **Upstream Flattening:** Merged the 560-facility dictionary with 20K raw records using Google Sheets (`ARRAYFORMULA`, `FLATTEN`) to prevent Looker Studio Cartesian Join errors.
+* **Optimized Blending:** Deployed strict joins to accurately calculate 80+ metrics without data duplication.
 
 ---
 
