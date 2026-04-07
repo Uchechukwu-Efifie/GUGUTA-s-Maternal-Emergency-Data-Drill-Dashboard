@@ -75,15 +75,18 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 ### Pages 1–2: National Summary (Leadership View)
 *Target Audience: Ministry Executives, National Program Directors*
 
-**[Insert Link/Image for National Summary Page 1]**
-**[Insert Link/Image for National Summary Page 2]**
+* **Page-1:** Gaguta's Maternal Summary Page
+![Summary Page Maternal](images/National_page_1.jpeg)
+
+* **Page-2:** Gaguta's Neonatal Summary Page
+![Summary Page Maternal](images/National_page_2.jpeg)
 
 **Key Highlights:**
 * Provides a macro view of the 1.84 million total deliveries across all 560 facilities.
 * Scorecards highlight the National Case Fatality Rates (CFR) for the top 6 complications, utilizing YoY comparative sparklines to show the historical velocity of mortalities at a glance.
 * Geo-heatmaps quickly identify which of the 9 Zones bear the highest burden of maternal cases versus actual mortalities.
 
-### Pages 3–10: State-Level Deep Dive (Zone E, State 09)
+### Pages 1–8: State-Level Deep Dive (Zone E, State 09)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
 
 *(The following analysis and pages of the dashboard is filtered for State 09 of Zone E)*
@@ -91,13 +94,27 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 * **Page-1:** State 09's Maternal Summary Page
 ![Summary Page Maternal](images/state_page_1.jpeg)
 
-**[Insert Link/Image for State Deep Dive Page 2]**
-**[Insert Link/Image for State Deep Dive Page 3]**
-**[Insert Link/Image for State Deep Dive Page 4]**
-**[Insert Link/Image for State Deep Dive Page 5]**
-**[Insert Link/Image for State Deep Dive Page 6]**
-**[Insert Link/Image for State Deep Dive Page 7]**
-**[Insert Link/Image for State Deep Dive Page 8]**
+* **Page-2:** State 09's Neonatal Summary Page
+![Summary Page Maternal](images/state_page_2.jpeg)
+
+* **Page-3:** State 09's Deliveries Cases and Mortalities
+![Summary Page Maternal](images/state_page_3.jpeg)
+
+* **Page-4:** State 09's Trends of Deliveries Cases, Mortalities and MMR by Months
+![Summary Page Maternal](images/state_page_4.jpeg)
+
+* **Page-5:** State 09's Trends of MOrtalities per Facility by Months
+![Summary Page Maternal](images/state_page_5.jpeg)
+
+* **Page-6:** State 09's Trends of Case Specific Mortalities (CFR) per Facility by Months
+![Summary Page Maternal](images/state_page_6.jpeg)
+
+* **Page-7:** State 09's Trends of Case Specific Mortalities (CFR) by Month
+![Summary Page Maternal](images/state_page_7.jpeg)
+
+* **Page-8:** State 09's Trends of Case vs Mortalities by Month
+![Summary Page Maternal](images/state_page_8.jpeg)
+
 
 **Key Highlights:**
 * **CFR Tracking:** Pinpoints exact complication mortality rates for the selected state. 
