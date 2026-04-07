@@ -105,7 +105,9 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 * **Enforce Intrapartum Monitoring (The Partograph):** To break the fatal link between Obstructed Labour and Severe Birth Asphyxia, clinical directors must strictly mandate and audit the use of the WHO Partograph during active labor. Early detection of abnormal labor progress will prompt timely C-sections.
 * **Invest in Neonatal Resuscitation:** Since Severe Birth Asphyxia causes over 58% of neonatal deaths, delivery rooms must be equipped with ambu bags and penguin suckers, backed by mandatory "Helping Babies Breathe" (HBB) resuscitation training for all birth attendants.
 
-### Pages 1–8: State-Level Deep Dive (Zone E, State 09)
+--
+
+### 📍 Pages 1–8: State-Level Deep Dive (Zone E, State 09)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
 
 *(The following analysis and pages of the dashboard is filtered for State 09 of Zone E)*
