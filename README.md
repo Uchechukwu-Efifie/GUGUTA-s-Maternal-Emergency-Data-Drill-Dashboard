@@ -103,9 +103,7 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 * **Comprehensive Preeclampsia/Eclampsia Management:** With Eclampsia driving 32.8% of deaths, the Ministry must mandate rigorous clinical training on hypertensive disorders. This must start at the antenatal level with aggressive surveillance and risk-stratification for high-risk women. This training must be coupled with an immediate national audit of the Magnesium Sulfate (MgSO4) supply chain to ensure life-saving anticonvulsants are available the moment they are needed.
 * **Community Awareness & Prompt Referrals:** Launch targeted public health campaigns educating communities, women, and traditional birth attendants on identifying early danger signs in pregnancy. This must be paired with strengthened emergency referral protocols to ensure women reach CEmONC facilities *before* complications become fatal.
 * **Enforce Intrapartum Monitoring (The Partograph):** To break the fatal link between Obstructed Labour and Severe Birth Asphyxia, clinical directors must strictly mandate and audit the use of the WHO Partograph during active labor. Early detection of abnormal labor progress will prompt timely C-sections.
-* **Invest in Neonatal Resuscitation:** Since Severe Birth Asphyxia causes over 58% of neonatal deaths, delivery rooms must be equipped with ambu bags and penguin suckers, backed by mandatory "Helping Babies Breathe" (HBB) resuscitation training for all birth attendants.
-
---
+* **Invest in Neonatal Resuscitation:** Since Severe Birth Asphyxia causes over 58% of neonatal deaths, delivery rooms must be equipped with ambu bags and penguin suckers, backed by mandatory "Helping Babies Breathe" (HBB) resuscitation training for all birth attendants
 
 ### 📍 Pages 1–8: State-Level Deep Dive (Zone E, State 09)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
