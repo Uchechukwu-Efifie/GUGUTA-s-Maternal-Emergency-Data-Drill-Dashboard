@@ -88,7 +88,7 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 
 *(The following analysis and pages of the dashboard is filtered for State 09 of Zone E)*
 
-* Page-1: State 09's Maternal Summary Page
+* **Page-1:** State 09's Maternal Summary Page
 ![Summary Page Maternal](images/state_page_1.jpeg)
 
 **[Insert Link/Image for State Deep Dive Page 2]**
