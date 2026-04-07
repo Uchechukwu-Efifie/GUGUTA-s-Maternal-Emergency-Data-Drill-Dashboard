@@ -88,7 +88,7 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 
 *(The following analysis assumes the dashboard is filtered for Zone F, State 13)*
 
-**[images/State page 1.png/Image for State Deep Dive Page 1]**
+**[images/State page 1.png]**
 **[Insert Link/Image for State Deep Dive Page 2]**
 **[Insert Link/Image for State Deep Dive Page 3]**
 **[Insert Link/Image for State Deep Dive Page 4]**
