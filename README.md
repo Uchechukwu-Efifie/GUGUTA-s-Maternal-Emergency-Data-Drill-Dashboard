@@ -86,7 +86,7 @@ Within Looker Studio, I engineered 3 distinct **Blended Datasets** applying appr
 ### Pages 3–10: State-Level Deep Dive (Zone F, State 13)
 *Target Audience: State Health Commissioners, M&E Officers, Quality Improvement Teams*
 
-*(The following analysis assumes the dashboard is filtered for Zone F, State 13)*
+*(The following analysis and pages of the dashboard is filtered for State 09 of Zone E)*
 
 ![Summary Page Maternal](images/state_page_1.jpeg)
 
