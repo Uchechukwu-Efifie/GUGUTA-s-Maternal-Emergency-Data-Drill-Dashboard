@@ -19,7 +19,7 @@
 6. [Key Insights & Recommendations](#6-key-insights--recommendations)
 7. [Tools & Technologies Used](#7-tools--technologies-used)
 8. [Conclusion & Next Steps](#8-conclusion--next-steps)
-9. [9. Appendix - Synthetic Data Generation Script](#9-appendix---synthetic-data-generation-script)
+9. [Appendix - Synthetic Data Generation Script](#9-appendix---synthetic-data-generation-script)
 
 ---
 
